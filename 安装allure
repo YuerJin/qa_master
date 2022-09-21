@@ -1,0 +1,15 @@
+下载地址：https://github.com/allure-framework/allure2/releases
+下载好zip包，解压
+配置环境变量：
+vi ~/.bash_profile
+PATH="/Users/liujing/Downloads/allure-2.7.0/bin:${PATH}"
+export PATH
+# 生效
+source ~/.bash_profile
+# 查看版本号
+allure --version
+
+# 生成测试报告
+allure generate report/allure/ -o report/html --clean
+# 运行allure服务查看报告
+allure serve report/allure

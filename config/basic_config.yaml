@@ -1,0 +1,10 @@
+env_info:
+    api_url: https://api.hbdm.com
+    qa_url: https://api.qa.atomintl.com
+#    qa_admin: 192.168.2.25:36030/v2/admin
+    qa_admin:  https://api.qa.atomintl.com/admin
+headers: '{
+        "Accept-Language": "en-US",
+        "Authorization": qa_toekn
+}'
+
